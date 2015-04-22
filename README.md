@@ -51,9 +51,6 @@ Build sculpin and run a local instance:
 ./vendor/bin/sculpin generate
 ./vendor/bin/sculpin server 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-You can now visit your docs site at <http://localhost:8000/docs>
-
  
 
 You can combine the two actions - generate the docs and start the server - with:
@@ -62,6 +59,7 @@ You can combine the two actions - generate the docs and start the server - with:
 ./vendor/bin/sculpin generate --server
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+You can now visit your docs site at <http://localhost:8000/docs>
  
 
 Finally, you can tell sculpin to watch the docs directory and automatically
